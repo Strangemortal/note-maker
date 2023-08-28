@@ -1,0 +1,2 @@
+# note-maker
+The Note Maker is a versatile and indispensable digital tool designed to simplify the process of capturing, organizing, and managing your thoughts, ideas, and information. Whether you're a student, professional, creative thinker, or anyone seeking to streamline their note-taking and productivity, this user-friendly application is your ultimate companion for efficient note creation and organization.
