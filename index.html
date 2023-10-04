@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Note Taking App</title>
-<link rel="stylesheet" href="not.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Writing Website</title>
+    <link rel="stylesheet"  href="not.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Note Taking App</h1>
-    <div class="note-form">
-      <textarea id="note-text" placeholder="Enter your note here fool"></textarea>
-      <button id="add-button">Add Note</button>
+  <header>
+    <h1>Task Writing Website</h1>
+    <div id="clock"></div>
+</header>
+<main>
+    <div class="task-container">
+        <div class="add-task">
+            <h2>Add a Task</h2>
+            <input type="text" id="task-input" placeholder="Enter a task">
+            <button class="btn" onclick="addTask()">Add</button>
+        </div>
+        <div class="task-list">
+            <h2>Task List</h2>
+            <ul id="task-list"></ul>
+        </div>
     </div>
-    <ul id="notes-list"></ul>
-  </div>
+</main>
 
-  <script src="not.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <script src="not.js"></script>
 </body>
 </html>
